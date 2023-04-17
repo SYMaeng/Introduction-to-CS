@@ -140,9 +140,9 @@ class Ball {
  */
  
 Ball[] balls =  { 
-  new Ball(100, 400, 20), 
+  new Ball(100, 400, 20),
   new Ball(700, 400, 80),
-  new Ball(300, 400, 60) 
+  new Ball(300, 400, 60)
 };
 
 void setup() {
@@ -162,4 +162,3 @@ void draw() {
   balls[0].checkCollision(balls[2]);
   balls[1].checkCollision(balls[2]);
 }
-
